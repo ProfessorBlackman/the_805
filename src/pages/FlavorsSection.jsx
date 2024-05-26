@@ -10,15 +10,15 @@ export function FlavorsSection() {
             </div>
             <div className="flavor flavor-menu">
                 <img className="flavor-img" src="src/assets/img_7.jpg" alt="ice cream"/>
-                <a className="bottom-text">MOUTHWATERING APPETIZERS</a>
+                <a href="/" className="bottom-text">MOUTHWATERING APPETIZERS</a>
             </div>
             <div className="flavor flavor-menu">
                 <img className="flavor-img" src="src/assets/img_8.jpg" alt="ice cream"/>
-                <a className="bottom-text">WHOLESOME MAINS</a>
+                <a href="/" className="bottom-text">WHOLESOME MAINS</a>
             </div>
             <div className="flavor flavor-menu">
                 <img className="flavor-img" src="src/assets/img_9.jpg" alt="ice cream"/>
-                <a className="bottom-text">SWEET ENDINGS</a>
+                <a href="/" className="bottom-text">SWEET ENDINGS</a>
             </div>
         </div>
     )
