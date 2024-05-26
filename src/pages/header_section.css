@@ -1,0 +1,44 @@
+.header-section {
+    background-image: url("../assets/img-20190307-174206-largejpg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    position: relative;
+    font-size: 35px;
+    top: -3em;
+    left: -22em;
+}
+
+#taste {
+    position: relative;
+    font-size: 90px;
+}
+
+#header-cta{
+    background-color: #F5F5EF;
+    color: black;
+}

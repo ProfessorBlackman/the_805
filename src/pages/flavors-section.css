@@ -1,0 +1,42 @@
+.flavors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcd7;
+}
+.flavor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    width: 30em;
+    height: 53em;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.flavor-menu{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.flavor-menu:hover{
+    transform: scale(1.1);
+}
+#flavor-head{
+    font-size: 3em;
+    margin-top: -3.5em;
+    padding-top: 0;
+}
+#flavor-para{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.flavor-img{
+    width: 25em;
+    height: 45em;
+}
+.bottom-text{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: underline;
+}

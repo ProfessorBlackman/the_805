@@ -1,0 +1,43 @@
+#story-cta{
+    background-color: black;
+    color: white;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lefty{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.righty{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-1{
+    position: relative;
+    width: 40%;
+    height: 55%;
+    margin: 1em;
+    padding: 1em;
+}
+#fish{
+    top: 10em;
+}
+#food{
+    top: 15em;
+}
+#right-heading{
+    color: black;
+    font-size: 70px;
+}
+#right-para{
+    color: black;
+    width: 80%;
+    font-size: 25px;
+}
